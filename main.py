@@ -17,17 +17,38 @@ if computer_choice == "Rock" and user_choice == "Scissors":
     print(art.rock)
     print(f"You choose {user_choice}")
     print(art.scissors)
-    print("Your Lose!")
+    print("You Lose!")
 elif computer_choice == "Scissors" and user_choice == "Paper":
     print(f"the computer choose {computer_choice}")
     print(art.scissors)
     print(f"You choose {user_choice}")
     print(art.paper)
-    print("Your Lose!")
+    print("You Lose!")
 elif computer_choice == "Paper" and user_choice == "Rock":
     print(f"the computer choose {computer_choice}")
     print(art.paper)
     print(f"You choose {user_choice}")
     print(art.rock)
-    print("Your Lose!")
+    print("You Lose!")
+elif user_choice == computer_choice:
+    print("It's a tie!!")
+else:
+    if computer_choice == "Scissors" and user_choice == "Rock":
+        print(f"the computer choose {computer_choice}")
+        print(art.scissors)
+        print(f"You choose {user_choice}")
+        print(art.rock)
+        print("Your Win!")
+    elif computer_choice == "Paper" and user_choice == "Scissors":
+        print(f"the computer choose {computer_choice}")
+        print(art.paper)
+        print(f"You choose {user_choice}")
+        print(art.scissors)
+        print("You Win!")
+    elif computer_choice == "Rock" and user_choice == "Paper":
+        print(f"the computer choose {computer_choice}")
+        print(art.rock)
+        print(f"You choose {user_choice}")
+        print(art.paper)
+        print("You Win!")
 
