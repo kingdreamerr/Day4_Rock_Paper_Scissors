@@ -32,7 +32,7 @@ also how to create my own modules.
 
 #### Preview:
 
-![rock](./tip_calculator.png)
+![rock and scissors](./rock.png)
 
 ## How to run this on your device
 

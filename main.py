@@ -38,7 +38,7 @@ else:
         print(art.scissors)
         print(f"You choose {user_choice}")
         print(art.rock)
-        print("Your Win!")
+        print("You Win!")
     elif computer_choice == "Paper" and user_choice == "Scissors":
         print(f"the computer choose {computer_choice}")
         print(art.paper)
